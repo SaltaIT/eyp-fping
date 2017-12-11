@@ -2,7 +2,7 @@
   "name": "eyp-fping",
   "version": "0.1.0",
   "author": "eyp",
-  "summary": null,
+  "summary": "fping installation",
   "license": "Apache-2.0",
   "source": "https://github.com/NTTCom-MS/eyp-fping",
   "project_page": "https://github.com/NTTCom-MS/eyp-fping",
