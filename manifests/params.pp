@@ -1,7 +1,6 @@
 class fping::params {
 
   $package_name='fping'
-  $service_name='fping'
 
   case $::osfamily
   {

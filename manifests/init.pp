@@ -10,8 +10,6 @@ class fping(
   validate_re($package_ensure, [ '^present$', '^installed$', '^absent$', '^purged$', '^held$', '^latest$' ], 'Not a supported package_ensure: present/absent/purged/held/latest')
 
   class { '::fping::install': }
-  -> class { '::fping::config': }
-  ~> class { '::fping::service': }
   -> Class['::fping']
 
 }
