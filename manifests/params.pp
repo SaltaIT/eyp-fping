@@ -6,6 +6,7 @@ class fping::params {
   {
     'redhat':
     {
+      $include_epel=true
       case $::operatingsystemrelease
       {
         /^[5-7].*$/:
@@ -16,6 +17,7 @@ class fping::params {
     }
     'Debian':
     {
+      $include_epel=false
       case $::operatingsystem
       {
         'Ubuntu':
